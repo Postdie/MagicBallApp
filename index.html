@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Ball</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Preguntale a la bola magica</h1>
+        <hr>
+
+        <form>
+            <label for="question">Question</label>
+            <input type="text"
+                    class="form-control"
+                    name="question" id="question">
+            <hr>
+            <label for="answer">Answer</label>
+            <input type="text"
+                    class="form-control"
+                    name="answer" id="answer">
+            <hr>
+            <input type="button"
+            onclick="ask()"
+                    class="btn btn-sucess btn-lg" value="Ask">
+        </form>
+
+    </div>
+     <script src="apps.js"></script>
+</body>
+</html>
